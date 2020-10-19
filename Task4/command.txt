@@ -1,0 +1,1 @@
+mysqldump -u root -p --where="TRUE ORDER BY help_keyword_id LIMIT 100" mysql help_keyword > help_keyword_dump.sql
